@@ -17,7 +17,8 @@ Aplicația este conectată la **Azure Application Insights** și trimite cu succ
 ### Configurare Application Insights
 - Aplicația utilizează **Application Insights SDK pentru Spring Boot** (configurat prin `pom.xml`).
 - Conexiunea cu Application Insights este realizată prin **connection string** definit în fișierul `application.properties`.
-- Telemetria este colectată automat pentru request-uri HTTP, iar manual pentru evenimentele de business.
+- Telemetria pentru request-uri HTTP este colectată **automat** de SDK-ul Application Insights.
+- Evenimentele de business sunt înregistrate **manual** în fișierul `MovieController.java`.
 
 ---
 
@@ -119,5 +120,6 @@ exceptions
 
 ### Dashboard Application Insights
 ![Dashboard](screenshots/dashboard.png)
+
 
 
