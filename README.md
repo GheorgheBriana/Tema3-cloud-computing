@@ -40,6 +40,8 @@ La adăugarea cu succes a unui film, aplicația înregistrează manual un evenim
 
 
 ### Gestionarea și logarea erorilor
+URL: https://movieapp-demo-homework.azurewebsites.net/error-test
+
 Aplicația include un mecanism explicit pentru generarea și logarea erorilor.
 
 - Endpoint-ul `/error-test` aruncă intenționat o `RuntimeException`
@@ -62,8 +64,9 @@ Caracteristici:
 ---
 
 ## 5. Health Endpoint
-Aplicația expune un endpoint de tip health check:
+URL: https://movieapp-demo-homework.azurewebsites.net/health
 
+Aplicația expune un endpoint de tip health check:
 
 Caracteristici:
 - Returnează HTTP **200** atunci când aplicația este funcțională
@@ -116,4 +119,5 @@ exceptions
 
 ### Dashboard Application Insights
 ![Dashboard](screenshots/dashboard.png)
+
 
